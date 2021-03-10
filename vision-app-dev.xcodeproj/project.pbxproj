@@ -16,6 +16,7 @@
 		DB2858B325F8C8DE004F0AFC /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2858B225F8C8DE004F0AFC /* RoundedShadowView.swift */; };
 		DB2858B625F8CA06004F0AFC /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2858B525F8CA06004F0AFC /* RoundedShadowButton.swift */; };
 		DB2858B925F8CA42004F0AFC /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2858B825F8CA42004F0AFC /* RoundedShadowImageView.swift */; };
+		DBF7832A25F8FECD00953E0A /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DBF7832925F8FECD00953E0A /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DB2858B825F8CA42004F0AFC /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 		DB2858BE25F8D354004F0AFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DB2858C525F8D39E004F0AFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBF7832925F8FECD00953E0A /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DB2858AF25F8BD65004F0AFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DBF7832925F8FECD00953E0A /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				DB2858B325F8C8DE004F0AFC /* RoundedShadowView.swift in Sources */,
 				DB2858B625F8CA06004F0AFC /* RoundedShadowButton.swift in Sources */,
 				DB28589C25F8BD21004F0AFC /* CameraVC.swift in Sources */,
+				DBF7832A25F8FECD00953E0A /* SqueezeNet.mlmodel in Sources */,
 				DB28589825F8BD21004F0AFC /* AppDelegate.swift in Sources */,
 				DB2858B925F8CA42004F0AFC /* RoundedShadowImageView.swift in Sources */,
 				DB28589A25F8BD21004F0AFC /* SceneDelegate.swift in Sources */,
