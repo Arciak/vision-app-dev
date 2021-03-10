@@ -30,6 +30,8 @@
 		DB2858B225F8C8DE004F0AFC /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		DB2858B525F8CA06004F0AFC /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		DB2858B825F8CA42004F0AFC /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		DB2858BE25F8D354004F0AFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB2858C525F8D39E004F0AFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				DB28589625F8BD21004F0AFC /* vision-app-dev */,
 				DB28589525F8BD21004F0AFC /* Products */,
+				DB2858BD25F8D354004F0AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +101,15 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB2858BD25F8D354004F0AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB2858C525F8D39E004F0AFC /* UIKit.framework */,
+				DB2858BE25F8D354004F0AFC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
