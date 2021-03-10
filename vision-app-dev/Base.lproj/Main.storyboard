@@ -74,6 +74,9 @@
                                 <state key="normal" title="FLESH OFF">
                                     <color key="titleColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fleshBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfh-li-uZ6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
