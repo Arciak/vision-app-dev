@@ -78,11 +78,17 @@
                                     <action selector="fleshBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfh-li-uZ6"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="aDt-9n-VVf">
+                                <rect key="frame" x="322.66666666666669" y="716" width="20" height="20"/>
+                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="HJw-de-NuS" secondAttribute="bottom" id="1KN-ar-VJ3"/>
+                            <constraint firstItem="aDt-9n-VVf" firstAttribute="centerY" secondItem="6kE-TR-rUM" secondAttribute="centerY" id="8r5-RG-LY6"/>
+                            <constraint firstItem="aDt-9n-VVf" firstAttribute="centerX" secondItem="6kE-TR-rUM" secondAttribute="centerX" id="93X-Ik-yFC"/>
                             <constraint firstItem="HJw-de-NuS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C5m-5u-lhk"/>
                             <constraint firstItem="HJw-de-NuS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ElV-wn-WN6"/>
                             <constraint firstItem="HJw-de-NuS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HOh-SF-OsD"/>
@@ -102,6 +108,7 @@
                         <outlet property="flashBtn" destination="FbZ-xS-R6t" id="ggb-ob-LjB"/>
                         <outlet property="identificationLbl" destination="9sv-ah-d3f" id="PtO-pu-QxX"/>
                         <outlet property="roudedLblView" destination="EAG-V2-tEq" id="rFm-em-TnW"/>
+                        <outlet property="spinner" destination="aDt-9n-VVf" id="nth-Bz-umU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
